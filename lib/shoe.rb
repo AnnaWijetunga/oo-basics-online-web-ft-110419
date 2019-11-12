@@ -14,7 +14,7 @@ class Shoe
   end 
   
 shoe = Shoe.condition("new")
-shoe.cobble
+shoe.condition
 
 # it 'makes the shoe\'s condition new' do
 #       shoe.condition = "old"
