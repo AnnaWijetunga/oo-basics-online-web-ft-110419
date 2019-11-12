@@ -2,8 +2,8 @@
 
 class Shoe 
   
-  attr_accessor :brand, :color, :size, :material, :condition
-  attr_reader :condition
+  attr_accessor :color, :size, :material, :condition
+  attr_reader :brand
   
   def initialize(brand)
     @brand = brand
@@ -11,17 +11,7 @@ class Shoe
   
   def cobble
     puts "Your shoe is as good as new!"
+    @condition="new"
   end 
-  
-cobble = Shoe.new("new")
-cobble.condition
 
-# it 'makes the shoe\'s condition new' do
-#       shoe.condition = "old"
-#       shoe.cobble
-#       expect(shoe.condition).to eq("new")
-  
 end
-
-# book = Book.new("Some Title")
-# book.turn_page
