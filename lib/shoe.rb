@@ -13,7 +13,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end 
   
-shoe = Shoe.condition("new")
+cobble = Shoe.new("new")
 shoe.condition
 
 # it 'makes the shoe\'s condition new' do
@@ -23,19 +23,5 @@ shoe.condition
   
 end
 
-# class Book
-#   attr_accessor :author, :page_count, :genre
-#   attr_reader :title 
-   
-#   def initialize(title)
-#     @title = title
-#   end
-  
-#   def turn_page
-#     puts "Flipping the page...wow, you read fast!"
-#   end 
-
 # book = Book.new("Some Title")
 # book.turn_page
-
-# end
